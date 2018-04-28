@@ -9,7 +9,7 @@ public class TextView {
 	
 	public void setText(CharSequence charSequence){
 		checkThread();
-		System.out.println("更新ui成功"+charSequence);
+		System.out.println(charSequence);
 		
 	}
 	
